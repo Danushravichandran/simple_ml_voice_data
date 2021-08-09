@@ -13,9 +13,9 @@ function predictWord() {
    document.querySelector('#console').textContent = scores[0].word.toUpperCase();
  }, {probabilityThreshold: 0.90});
  
- if(scores=="up")
+ if(scores[0].word.toUpperCase()=="UP")
  {
-  console.log("https://www.tanishq.co.in/product/drop-earring-500005dmaaba04")
+  console.log("https://www.tanishq.co.in/product/drop-earring-500005dmaaba04");
  }
  
 }
