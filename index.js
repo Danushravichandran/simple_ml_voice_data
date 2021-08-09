@@ -11,12 +11,15 @@ function predictWord() {
    // Find the most probable word.
    scores.sort((s1, s2) => s2.score - s1.score);
    document.querySelector('#console').textContent = scores[0].word.toUpperCase();
- }, {probabilityThreshold: 0.90});
  
- if(scores[0].word.toUpperCase()=="UP")
+  if(scores[0].word.toUpperCase()=="UP")
  {
   console.log("https://www.tanishq.co.in/product/drop-earring-500005dmaaba04");
  }
+  
+ }, {probabilityThreshold: 0.90});
+ 
+ 
  
 }
 
